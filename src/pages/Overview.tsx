@@ -29,7 +29,7 @@ import { KPICard, RAFCard } from "../components/Card";
 export default function Overview(): ReactNode {
 	return (
 		<div className="p-4 w-full">
-			<div className="flex justify-between items-center mb-4">
+			<div className="flex justify-between items-center mb-4 flex-wrap gap-2">
 				<h1 className="text-3xl">Client Dashboard</h1>
 				<div className="flex items-centerm gap-2">
 					<CircularIconButton
