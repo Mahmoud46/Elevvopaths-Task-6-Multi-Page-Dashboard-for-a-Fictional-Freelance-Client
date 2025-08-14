@@ -15,13 +15,16 @@ export default function App(): ReactNode {
 			<Header setIsOpen={setIsOpen} isOpen={isOpen} />
 			<main className="gap-4 relative mt-18">
 				<Sidebar isOpen={isOpen} />
-				<section className="flex items-start justify-start sm:ml-20 ml-0">
+				<section className="flex items-start justify-start sm:ml-20 ml-0 ">
 					<Routes>
 						<Route index element={<Overview />} />
 						<Route path="/projects" element={<Projects />} />
 						<Route path="/profile" element={<Profile />} />
 					</Routes>
 				</section>
+				<p className="text-center text-xs text-gray-800">
+					&copy; 2025 Mahmoud Zakaria. All rights reserved.
+				</p>
 			</main>
 		</>
 	);
