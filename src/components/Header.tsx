@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { CircularIconButton } from "./Button";
 import { recentActivity } from "../data/data";
 import { RAFCard } from "./Card";
+import logo from "../assets/worknest.svg";
 
 export default function Header({
 	isOpen,
@@ -31,7 +32,7 @@ export default function Header({
 				)}
 
 				<Link to={"/"} className="text-2xl cursor-pointer">
-					WorkNest
+					<img src={logo} alt="worknest" className="w-[80px]" />
 				</Link>
 			</div>
 
