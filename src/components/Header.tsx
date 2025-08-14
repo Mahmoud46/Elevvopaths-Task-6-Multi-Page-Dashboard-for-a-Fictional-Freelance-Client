@@ -32,7 +32,7 @@ export default function Header({
 				)}
 
 				<Link to={"/"} className="text-2xl cursor-pointer">
-					<img src={logo} alt="worknest" className="w-[80px]" />
+					<img src={logo} alt="worknest" className="h-[30px]" />
 				</Link>
 			</div>
 
